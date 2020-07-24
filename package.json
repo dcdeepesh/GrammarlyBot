@@ -1,0 +1,20 @@
+{
+  "name": "grammarlybot",
+  "version": "1.0.0",
+  "description": "Checks .docx files with Grammarly",
+  "main": "Main.js",
+  "dependencies": {
+    "archiver": "^4.0.2",
+    "axios": "^0.19.2",
+    "decompress-zip": "^0.2.2",
+    "fs": "^0.0.1-security",
+    "ws": "^7.3.1",
+    "xmldom": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepesh Choudhary",
+  "license": "ISC"
+}
