@@ -19,9 +19,9 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 PrivilegesRequired=lowest
-OutputDir=C:\Users\Harish\Desktop
+OutputDir=../bin
 OutputBaseFilename=GrammarlyBotSetup-1.0
-SetupIconFile=C:\Users\Harish\Downloads\icon-grammarly.ico
+SetupIconFile=icon-grammarly.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -30,10 +30,10 @@ WizardStyle=modern
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "D:\Deepesh\ext\Programs\GrammarlyBot\Main.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\GrammarlyBot.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 [Registry]
 Root: HKCU; Subkey:"Software\Classes\Word.Document.12\shell\bruh"; \
   ValueType: string; ValueName: ""; ValueData: "Check with Grammarly"; Flags: uninsdeletekey 
 Root: HKCU; Subkey:"Software\Classes\Word.Document.12\shell\bruh\command"; \
-  ValueType: string; ValueName: ""; ValueData: "{app}\Main.exe ""%1"""
+  ValueType: string; ValueName: ""; ValueData: "{app}\GrammarlyBot.exe ""%1"""
