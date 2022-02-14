@@ -5,7 +5,7 @@
   "main": "Main.js",
   "dependencies": {
     "archiver": "^4.0.2",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "decompress-zip": "^0.2.2",
     "fs": "^0.0.1-security",
     "ws": "^7.3.1",
